@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelham Island Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: linear-gradient(to left, #666699 0%, #ff9900 100%);
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #5c5c8a;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to the Kelham Island Museum Website</h1>
+</div>
+
+<div class="navbar">
+  <a href="KelhamIslandWeb.html"> Home </a>
+  <a href="KelhamIslandInfo.html">Information</a>
+  <a href="KelhamIslandMap.html">Map</a>
+  <a href="KelhamIslandAR.html">AR Scan App</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <h2>Welcome to the AR Scan App</h2>
+    <p>The Purpose of the AR Scan App is to make as easy as possible for the people who visit Kelham Island </p>
+    <p>to understand what the machines are for and what they mean for the campus.</p>
+    <p>This has be done by creating clear models of the machines which you can view as you make your way across the site,</p>
+    <p>this is to help people get an understanding why these machines are here and what they were used for back when they were running.</p>
+    <p>In addition, when making your way around, you will be given information about what each machine is</p>
+    <p>and what it is designed to do and when it was made.</p>
+    <p>By doing this we hope we are ensuring that each one of our visitors gets the full experience from the museum and what it has to offer.</p>
+    <br>
+      </div>
+      
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <h2>The River Don Engine</h2>
+    <IMG SRC="AR1.jfif" Height=300 Width=500 style="display:inline-block">
+    <p>The River Don Engine was built by Davy Brothers of Sheffield in 1905 at Park Iron Works in Sheffield.  </p>
+    <p>It was made to drive Charles Cammell's armour plate rolling mill located at his Grimesthorpe Works.</p>
+    <p>Cammell’s was one of the companies in the city that supplied the ship building industry with tough armour plate steel.</p>
+    <p>At a weight of 400 tons and 12,000 horsepower, it enabled the huge mill to roll steel plate up to 40cm thick and 50 tons in weight.</p>
+    <p>The River Don Engine was one of four all built for the same purpose.</p>
+    <p>The second went to John Brown's Atlas Works, the third to the Japanese government, and the fourth to Beardmores in Glasgow.</p>
+    <p>The River Don Engine ran at Cammell's mill for almost 50 years.</p>
+    <p> The engine was then transferred to what was formerly known as the British Steel Corporation's River Don Works.</p>
+    <p> At the Works, the engine continued to drive a heavy plate mill, producing products such as stainless-steel reactor shields and steel plates for North Sea oil rigs.</p>
+    <p>In 1978, the engine ceased production and was transferred to the Kelham Island Museum site where it continues to run on steam as is the most powerful working steam engine remaining in Europe today.</p>
+    <br>
+      </div> 
+      
+  </div>
+</div>
+
+<div class="footer">
+  <h4>Contact Us</h4>
+<p><font size="3" color="black"> Sheffield Industrial Museums Trust </font>
+<p><font size="3" color="black"> Kelham Island Museum </font>
+<p><font size="3" color="black"> Alma Street </font>
+<p><font size="3" color="black"> S3 8RY </font>
+<p><font size="3" color="black"> Find Us </font>
+<p><font size="3" color="black"> Telephone: 0114 272 2106 </font>
+<p><font size="3" color="black"> Email: ask@simt.co.uk </font>
+      </div>
+      
+</body>
+</html>

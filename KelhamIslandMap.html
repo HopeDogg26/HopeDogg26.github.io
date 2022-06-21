@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelham Island Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: linear-gradient(to left, #666699 0%, #ff9900 100%);
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #5c5c8a;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to the Kelham Island Museum Website</h1>
+</div>
+
+<div class="navbar">
+  <a href="KelhamIslandWeb.html"> Home </a>
+  <a href="KelhamIslandInfo.html">Information</a>
+  <a href="KelhamIslandMap.html">Map</a>
+  <a href="KelhamIslandAR.html">AR Scan App</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <h2>A View of Kelham Island</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.6430022418544!2d-1.472198562884542!3d53.3891284257121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879787d0003d49b%3A0xe27976fcead7cd17!2sKelham%20Island%2C%20Sheffield!5e0!3m2!1sen!2suk!4v1654779816097!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+      </div>
+      
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <h2>A Few Photos of Our Site</h2>
+    <IMG SRC="Map1.jpg" Height=300 Width=500 style="display:inline-block">
+    <IMG SRC="Map2.jpg" Height=300 Width=500 style="display:inline-block">
+    <IMG SRC="Map3.jpg" Height=300 Width=500 style="display:inline-block">
+    <h2>The Island and surrounding area is one of Sheffield’s eleven designated quarters.</h2>
+    <p>A great deal of regeneration has taken place and many of the old factories and workshops are now cafes, artist</p>
+    <p>studios, houses and apartments surrounded by award winning restaurants and the ‘valley of beer’ because of</p>
+    <p>array of real ale pubs and micro-breweries. </p>
+    <p>The landscape of Kelham Island has changed dramatically, from what once was a dirty industrial area of the city,</p>
+    <p>to a cleaner environment for a whole range of wildlife along the riverside.
+    </p>
+    <h3>There are a number of points of interest around the Museum and Island</h3>
+     <p>1) Memorial Stone – Sheffield Flood, 1864.</p>
+     <p>On 11 March 1864 the Dale Dyke Dam at Bradfield, near Sheffield, collapsed. The water devastated several areas</p>
+     <p>and killed 240 people as it flooded through the city.</p>
+     <p>2) Street Sculpture</p>
+     <p>Embedded with grindstones the sculpture marks the location of The Union Wheel (1819-1940s) and the appalling</p>
+     <p>working conditions of grinders in the 1800s.</p>
+     <p>3) Site of Russell Works (1854)</p>
+     <p>Russell Works was a Crucible Furnace and home to Messers Wheatman and Smith, saw manufacturers from the</p>
+     <p>mid 1850s. The building now houses The Hawley Gallery and Crucible Shop as part of Kelham Island Museum.</p>
+     <p>4) Site of Green Lane Works (1830s-1940s)</p>
+     <p>Cast iron fenders and stove grates were made here since 1795. From the 1830s Henry Hoole built up the firm</p>
+     <p>and erected a gateway entrance in 1860 to commemorate being the Mayor of Sheffield.</p>
+     <p>5) Site of Globe Works (1825)</p>
+     <p>The company housed here was begun by William Ibbotson and Roebuck. It was one of the first large-scale steel and cutlery works in Sheffield.</p>
+     <p>6) Site of Samuel Osborn and Co, Ltd (1870s)</p>
+     <p>Osborne’s was the first firm to specialise in new alloy steels. The remaining brick building on the site was built in 1919-1920.</p>
+    <br>
+      </div> 
+      
+  </div>
+</div>
+
+<div class="footer">
+  <h4>Contact Us</h4>
+<p><font size="3" color="black"> Sheffield Industrial Museums Trust </font>
+<p><font size="3" color="black"> Kelham Island Museum </font>
+<p><font size="3" color="black"> Alma Street </font>
+<p><font size="3" color="black"> S3 8RY </font>
+<p><font size="3" color="black"> Find Us </font>
+<p><font size="3" color="black"> Telephone: 0114 272 2106 </font>
+<p><font size="3" color="black"> Email: ask@simt.co.uk </font>
+      </div>
+      
+</body>
+</html>
