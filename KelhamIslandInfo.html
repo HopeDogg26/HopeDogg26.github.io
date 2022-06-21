@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelham Island Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: linear-gradient(to left, #666699 0%, #ff9900 100%);
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #5c5c8a;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to the Kelham Island Museum Website</h1>
+</div>
+
+<div class="navbar">
+  <a href="KelhamIslandWeb.html"> Home </a>
+  <a href="KelhamIslandInfo.html">Information</a>
+  <a href="KelhamIslandMap.html">Map</a>
+  <a href="KelhamIslandAR.html">AR Scan App</a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <h2>About Us</h2>
+    <IMG SRC="Info1.jpg" Height=300 Width=500 style="display:inline-block">
+    <p><font size="3" color="black">Located in one of the city’s oldest industrial districts, the museum stands on a man-made island over 900 years old.
+</font>
+<p><font size="3" color="black">Kelham Island Museum was opened in 1982 to house the objects, pictures and archive material representing Sheffield’s industrial story.
+</font>
+<p><font size="3" color="black">Our interactive galleries tell the story from light trades and skilled workmanship to mass production and what it was like to live and work in Sheffield during the Industrial Revolution.
+</font>
+<p><font size="3" color="black">Follow the growth of the steel city through the Victorian Era and two world wars to see how steelmaking forged both the city of today and the world!</p>
+</font>
+<h7><font size="5" color="black">Opening Times</font></h7>
+<p><font size="3" color="black">Monday (only open during School Holidays):</p>
+</font>
+<p><font size="3" color="black">10:00 - 16:00</p>
+</font>
+<p><font size="3" color="black">Tuesday - Friday: 10:00–17:00</p>
+</font>
+<p><font size="3" color="black">Sunday: 11:00–16:00</p>
+</font>
+<p><font size="3" color="black">Saturday : 10:00 -16:00</p>
+</font>
+<h8><font size="5" color="black">Prices</font></h8>
+<p><font size="3" color="black">FREE Entry</p>
+</font>
+<p><h9><font size="5" color="black">Additional Information</font></h9></p>
+<p><h10><font size="4" color="black">Parking</font></h10></p>
+<p><font size="3" color="black">Free visitor parking is available at the end of the island, with accessible parking behind</p>
+</font>
+<p><font size="3" color="black">the Bessemer (the large black structure) – you’ll see signs to direct you when you arrive.</p>
+<h11><font size="4" color="black">River Don Steam Engine</font></h11>
+</font>
+<p><font size="3" color="black">See the River Don Engine in steam at 12pm and 2pm when the museum is open.</p>
+<h12><font size="4" color="black">Island Café+Bar and The Millowners Arms</font></h12>
+</font>
+<p><font size="3" color="black">The onsite Island Café+Bar and The Millowners Arms traditional pub are both open</p>
+</font>
+<p><font size="3" color="black">daily and offer a range of food and drink. You can enjoy the large social-distanced</p>
+</font>
+<p><font size="3" color="black">beer garden with table service.</p>
+</font>
+<p><font size="3" color="black">The museum is now operated by Sheffield Museums Trust, an independent charity</p>
+</font>
+<p><font size="3" color="black">that operates six of the city’s leading museums and heritage sites.</p>
+</font>
+    <br>
+      </div>
+        
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Contact Us</h2>
+<p><font size="3" color="black"> Sheffield Industrial Museums Trust </font>
+<p><font size="3" color="black"> Kelham Island Museum </font>
+<p><font size="3" color="black"> Alma Street </font>
+<p><font size="3" color="black"> S3 8RY </font>
+<p><font size="3" color="black"> Find Us </font>
+<p><font size="3" color="black"> Telephone: 0114 272 2106 </font>
+<p><font size="3" color="black"> Email: ask@simt.co.uk </font>
+      </div>
+      
+</body>
+</html>
