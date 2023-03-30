@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tempreture & Humidity Sensor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #142852;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #00b8e6;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #142852;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <img src="TempSign.png" alt="Trulli" width="" height="150" align="right">
+<img src="HumidSign.png" alt="Trulli" width="" height="150" align="left"> 
+  <h1>Welcome to the Tempreture and Humidity Sensor Website</h1>
+</div>
+
+<div class="navbar">
+  <a href="TempretureHumiditySensor.html"> Main Menu </a>
+</div>
+
+<div class="row">
+  <div class="side">
+  <div class="main">
+    <IMG SRC="Welcome.png" Height=200 Width=200 style="display:inline-block">
+    <IMG SRC="Warning.png" Height=200 Width=200 style="display:inline-block">
+      <h1>Your Reading are:</h1>
+      <h2>Temperature = 25.50C</h2>
+      <h2>Humidity = 43.00%</h2>
+      <h3>Max Temperature = 30.00C</h3>
+      <h3>Is it over Max Temp</h3>
+      <h3>No</h3>
+      <h3>Level = Safe</h3>
+      <h3>No Email will be sent</h3>
+     </div>
+    <br>
+      </div>
+        
+  </div>
+</div>
+
+<div class="footer">
+    <h4> <font size="5" color="white"> Contact Us</font></h4>
+<p><font size="3" color="white"> UTC Sheffield Olympic Legacy Park</font>
+<p><font size="3" color="white"> adminolp@utcsheffield.org.uk</font>
+<p><font size="3" color="white"> 0114 308 4000</font>
+<p><font size="3" color="white"> 2 Old Hall Road, Sheffield</font>
+<p><font size="3" color="white"> S9 3TU </font>
+<p><font size="3" color="white"> Find Us </font>
+<p><font size="3" color="white"> Email: 16hopej1@utcsheffield.org.uk or 16alleng@utcsheffield.org.uk</font>
+      </div>
+      
+</body>
+</html>
